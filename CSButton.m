@@ -7,7 +7,6 @@
 //
 
 #import "CSButton.h"
-#import "UIView+Layout.h"
 @implementation CSButton
 
 
@@ -19,8 +18,7 @@
     
     CGRect imageRect = self.imageView.frame;
     CGRect titleRect = self.titleLabel.frame;
-//    CGFloat ih = imageRect.size.height ;
-//    CGFloat iw = imageRect.size.width ;
+
     CGFloat th = self.titleLabel.intrinsicContentSize.height ;
     CGFloat tw = self.titleLabel.intrinsicContentSize.width ;
     
