@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 typedef NS_ENUM(NSInteger , ImagePosition) {
-    P_Top ,
+    P_Top  = 1,
     P_Left ,
     P_Bottom,
     P_Right
